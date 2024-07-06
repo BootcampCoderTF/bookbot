@@ -18,7 +18,7 @@ def main():
     for key in sorted(char_count):
         count = char_count[key]
         time_label = "time" if count == 1 else "times"
-        print(f"The character '{key}' appears: {count} {time_label}")
+        print(f"The character '{key.upper()}' appears: {count} {time_label}")
     
     print("\n --- End Report --- \n")
     print("\n" + "=" * 80)
